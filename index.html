@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/binary-code.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="./script.js"></script>
+  <title>Password Generator</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Gerador de senha aleatória</h1>
+
+    <div class="box-input">
+      <input name="input" type="number" placeholder="Digite a quantidade de caracteres" required>
+      <button id="button_generator">Clique para gerar</button>
+    </div>
+
+    <div hidden class="div_hidden">
+      <div class="box_result">
+        <p>Senha gerada: <span></span></p>
+        <div class="box_button">
+          <button id="button_copy">Copiar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
