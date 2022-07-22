@@ -40,7 +40,6 @@
    generetor(input.value)
  })
 
-
  buttonCopy.addEventListener("click", function () {
 
   copiarTexto()

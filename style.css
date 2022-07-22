@@ -79,8 +79,6 @@ input:focus {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
-  /* width: 1225px; */
-  /* height: 105px; */
 }
 
 p {
@@ -157,6 +155,8 @@ span {
   }
   p {
     font-size: 30px;
+    word-wrap: break-word;
+    width: auto;
   }
   .box_result {
     width: 640px;
@@ -168,7 +168,6 @@ span {
     text-align: center;
     font-size: 45px;
     margin-bottom: 60px;
-
   }
 
   input {
