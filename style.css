@@ -5,6 +5,7 @@ body {
   background-size: cover;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.962) 0%, rgba(0, 0, 0, 0.6) 100%), url(./img/giphy.gif);
   height: 100vh;
+  width: 100vw;
   overflow: hidden;
   font-family: 'Nunito', sans-serif;
 }
@@ -78,8 +79,8 @@ input:focus {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
-  width: 1225px;
-  height: 105px;
+  /* width: 1225px; */
+  /* height: 105px; */
 }
 
 p {
@@ -120,4 +121,62 @@ p {
 
 span {
   color: rgb(252, 3, 252);
+}
+
+
+@media(max-width:875px) {
+  .box_input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  h1 {
+    margin: 0 0 90px;
+    font-size: 50px;
+  }
+  input {
+    width: 380px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width:700px) {
+  h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 100px;
+  }
+  input {
+    width: 350px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  #button_generator {
+    width: 200px;
+  }
+  p {
+    font-size: 30px;
+  }
+  .box_result {
+    width: 640px;
+  }
+}
+
+@media(max-width:550px) {
+  h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 60px;
+
+  }
+
+  input {
+    width: 380px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  #button_generator {
+    width: 220px;
+  }
 }
